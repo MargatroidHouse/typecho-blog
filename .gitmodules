@@ -1,0 +1,57 @@
+[submodule "usr/plugins/Access"]
+	path = usr/plugins/Access
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-Access.git
+[submodule "usr/plugins/Adminer"]
+	path = usr/plugins/Adminer
+	url = git@github.com:kokororin/typecho-plugin-adminer.git
+[submodule "usr/plugins/Aphorisms"]
+	path = usr/plugins/Aphorisms
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-aphorisms.git
+[submodule "usr/plugins/BackToTop"]
+	path = usr/plugins/BackToTop
+	url = git@github.com:xiamuguizhi/Typecho-BackToTop.git
+[submodule "usr/plugins/CodeStyle"]
+	path = usr/plugins/CodeStyle
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-codeStyle.git
+[submodule "usr/plugins/IPLocation"]
+	path = usr/plugins/IPLocation
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-IPLocation.git
+[submodule "usr/plugins/Links"]
+	path = usr/plugins/Links
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-Links.git
+[submodule "usr/plugins/MemorialDay"]
+	path = usr/plugins/MemorialDay
+	url = git@github.com:sy-records/MemorialDay.git
+[submodule "usr/plugins/Meting"]
+	path = usr/plugins/Meting
+	url = git@github.com:MoePlayer/APlayer-Typecho.git
+[submodule "usr/plugins/QQSupport"]
+	path = usr/plugins/QQSupport
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-QQSupport.git
+[submodule "usr/plugins/Restful"]
+	path = usr/plugins/Restful
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-Restful.git
+[submodule "usr/plugins/Sitemap"]
+	path = usr/plugins/Sitemap
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-Sitemap.git
+[submodule "usr/plugins/SiteRunningTime"]
+	path = usr/plugins/SiteRunningTime
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-SiteRunningTime.git
+[submodule "usr/plugins/Snow"]
+	path = usr/plugins/Snow
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-Snow.git
+[submodule "usr/plugins/TeConnect"]
+	path = usr/plugins/TeConnect
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-TeConnect.git
+[submodule "usr/plugins/TestAPI"]
+	path = usr/plugins/TestAPI
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-TestAPI.git
+[submodule "usr/plugins/THBExt"]
+	path = usr/plugins/THBExt
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-THBExt.git
+[submodule "usr/plugins/TeStore"]
+	path = usr/plugins/TeStore
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-TeStore.git
+[submodule "usr/themes/Typecho-theme-amaze"]
+	path = usr/themes/Typecho-theme-amaze
+	url = git@github.com:Whuihuan/typecho-theme-amaze.git
