@@ -35,3 +35,13 @@ usr/themes/*
 !usr/themes/classic-22
 node_modules/
 /tools/tmp/
+
+.htaccess
+.user.ini
+.well-known/
+404.html
+index.html
+.bash_history
+.ssh/
+.gitconfig
+.lesshst
