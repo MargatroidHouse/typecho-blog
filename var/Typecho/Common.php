@@ -83,7 +83,7 @@ namespace Typecho {
         $isPlugin = false;
 
         // detect if class is predefined
-        if (strpos($className, '\\') !== false) {
+        if ($isNamespace) {
             $isPlugin = strpos(ltrim($className, '\\'), PLUGIN_NAMESPACE . '\\') !== false;
 
             if ($isPlugin) {
@@ -168,7 +168,7 @@ namespace Typecho {
     class Common
     {
         /** 程序版本 */
-        public const VERSION = '1.2.0';
+        public const VERSION = '1.2.1';
 
         /**
          * 将路径转化为链接

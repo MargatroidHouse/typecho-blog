@@ -229,8 +229,14 @@ class Edit extends Contents implements ActionInterface
                 if (preg_match("/^fields\[(.+)\]$/", $name, $matches)) {
                     $name = $matches[1];
                 } else {
+                    $inputName = 'fields[' . $name . ']';
+                    if (preg_match("/^(.+)\[\]$/", $name, $matches)) {
+                        $name = $matches[1];
+                        $inputName = 'fields[' . $name . '][]';
+                    }
+
                     foreach ($item->inputs as $input) {
-                        $input->setAttribute('name', 'fields[' . $name . ']');
+                        $input->setAttribute('name', $inputName);
                     }
                 }
 
@@ -405,7 +411,7 @@ class Edit extends Contents implements ActionInterface
         $realId = 0;
 
         /** 是否是从草稿状态发布 */
-        $isDraftToPublish = ('post_draft' == $this->type);
+        $isDraftToPublish = ('post_draft' == $this->type || 'page_draft' == $this->type);
 
         $isBeforePublish = ('publish' == $this->status);
         $isAfterPublish = ('publish' == $contents['status']);
@@ -662,8 +668,8 @@ class Edit extends Contents implements ActionInterface
         }
 
         $customFields = $this->request->getArray('fields');
-        if (!empty($customFields)) {
-            $fields = array_merge($fields, $customFields);
+        foreach ($customFields as $key => $val) {
+            $fields[$key] = [is_array($val) ? 'json' : 'str', $val];
         }
 
         return $fields;
