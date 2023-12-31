@@ -40,9 +40,6 @@
 [submodule "usr/plugins/Snow"]
 	path = usr/plugins/Snow
 	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-Snow.git
-[submodule "usr/plugins/TeConnect"]
-	path = usr/plugins/TeConnect
-	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-TeConnect.git
 [submodule "usr/plugins/TestAPI"]
 	path = usr/plugins/TestAPI
 	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-TestAPI.git
@@ -55,3 +52,6 @@
 [submodule "usr/themes/Typecho-theme-amaze"]
 	path = usr/themes/Typecho-theme-amaze
 	url = git@github.com:Whuihuan/typecho-theme-amaze.git
+[submodule "usr/plugins/TeConnect"]
+	path = usr/plugins/TeConnect
+	url = git@github.com:MargatroidHouse/TeConnect.git
