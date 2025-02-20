@@ -3,7 +3,7 @@
 	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-Access.git
 [submodule "usr/plugins/Adminer"]
 	path = usr/plugins/Adminer
-	url = git@github.com:kokororin/typecho-plugin-adminer.git
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-adminer.git
 [submodule "usr/plugins/Aphorisms"]
 	path = usr/plugins/Aphorisms
 	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-aphorisms.git

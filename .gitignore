@@ -45,3 +45,6 @@ index.html
 .ssh/
 .gitconfig
 .lesshst
+.mariadb_history
+.vscode-server/
+.wget-hsts
