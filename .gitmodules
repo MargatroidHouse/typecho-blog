@@ -24,7 +24,7 @@
 	url = git@github.com:sy-records/MemorialDay.git
 [submodule "usr/plugins/Meting"]
 	path = usr/plugins/Meting
-	url = git@github.com:MoePlayer/APlayer-Typecho.git
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-APlayer.git
 [submodule "usr/plugins/QQSupport"]
 	path = usr/plugins/QQSupport
 	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-QQSupport.git
@@ -54,4 +54,4 @@
 	url = git@github.com:Whuihuan/typecho-theme-amaze.git
 [submodule "usr/plugins/TeConnect"]
 	path = usr/plugins/TeConnect
-	url = git@github.com:MargatroidHouse/TeConnect.git
+	url = git@github.com:MargatroidHouse/alicem-typecho-plugin-TeConnect.git
